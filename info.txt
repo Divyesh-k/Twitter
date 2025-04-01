@@ -1,0 +1,241 @@
+# notes on what is installed and changes done theough the project on the specific folders
+....................................................................................................................................................
+....................................................................................................................................................
+# root
+
+npm init -y
+npm install express mongoose jsonwebtoken bcryptjs dotenv cors cookie-parser cloudinary
+npm i -D nodemon
+
+add  "type": "module", to the package.json
+
+// to get a long secret jwt key  so we used this
+Divyesh@inventyv:~/personal_work/Twiter-Clone$ openssl rand -base64 32
+Xc/IhqFc6ZPrer9Rg1L5IUdVYsTW8ZvCbF0TSH/SUac=
+Divyesh@inventyv:~/personal_work/Twiter-Clone$
+
+
+
+
+npm install nodemailer
+
+....................................................................................................................................................
+
+....................................................................................................................................................
+# frontend
+
+
+Divyesh@inventyv:~/personal_work/Twiter-Clone/frontend$ npm create vite@latest .
+
+> npx
+> create-vite .
+
+✔ Select a framework: › React
+✔ Select a variant: › JavaScript
+
+Scaffolding project in /home/Divyesh/personal_work/Twiter-Clone/frontend...
+
+Done. Now run:
+
+  npm install
+  npm run dev
+
+
+
+
+
+  added taildwind css 
+(https://tailwindcss.com/docs/guides/vite)
+
+added daisyui css
+(https://daisyui.com/docs/install/)
+
+
+doing as per given instruction on the file ui-design-steps.md
+  
+
+  useful react icon site (https://react-icons.github.io/react-icons/search/#q=outline%20key)
+
+
+(working with react queries.)
+  https://tanstack.com/query/latest/docs/framework/react/installation
+  npm i @tanstack/react-query
+
+
+  (react toast)
+  https://react-hot-toast.com/
+
+  npm i react-hot-toast
+
+  npm i axios
+
+
+
+npm install socket.io-client
+
+npm install timeago.js
+npm install --save react-input-emoji
+npm i emoji-picker-react       -------------------------------------------------->no
+npm install --save emoji-mart @emoji-mart/data @emoji-mart/react   (https://github.com/missive/emoji-mart)
+
+
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @mui/icons-material
+npm install @mui/lab
+
+
+
+
+(https://v2.chakra-ui.com/getting-started)  chakra ui components
+
+  npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+....................................................................................................................................................
+
+....................................................................................................................................................
+# backend
+
+npm install socket.io
+
+
+
+https://www.youtube.com/watch?v=SDMs2Pq6w90  (learning to build chat app    reached at : 31:28 )
+
+....................................................................................................................................................
+
+....................................................................................................................................................
+
+
+
+....................................................................................................................................................
+# socket
+
+npm init -y
+
+npm i socket.io nodemon
+
+
+...................................................................................................................................................
+
+....................................................................................................................................................
+# mongodb
+
+
+db credentaial    username = dbsuper , password =  3elbALxrwLP2guuW
+mongodb+srv://dbsuper:3elbALxrwLP2guuW@vageta.mnm3lok.mongodb.net/?retryWrites=true&w=majority&appName=Vageta
+
+....................................................................................................................................................
+# youtube
+
+link : https://www.youtube.com/watch?v=4GUVz2psWUg&list=PLbqoMiiJqklTBY7urfQkEivWfJJ-ceEb6&index=82
+timeline : 5:35:56
+....................................................................................................................................................
+
+....................................................................................................................................................
+
+....................................................................................................................................................
+#websites
+ --> create account at cloudinary 
+ ( https://console.cloudinary.com/pm/c-02f81bcdec71bcf6d8e8b8a932b67f/developer-dashboard )
+....................................................................................................................................................
+
+....................................................................................................................................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
